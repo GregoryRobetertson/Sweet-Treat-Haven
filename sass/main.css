@@ -1,0 +1,147 @@
+body {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.navbar {
+  background-color: #D2B48C;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-right: 10px; /* Add margin to separate logo from nav links */
+}
+
+.logo {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center; /* Align nav links vertically */
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  font-style: italic;
+}
+
+.navbar a:hover {
+  color: #B5CC82;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative; /* Ensure relative positioning for absolute positioning of pseudo-element */
+  background: url(https://media.istockphoto.com/id/1428437700/photo/mini-cookies-and-cream-cheesecakes.webp?b=1&s=170667a&w=0&k=20&c=jiB0TO2S3Wj17rrhpmj77J0CTeBVfKrBlpITuvjNFXo=) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Add a color overlay */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
+
+.home .homeContent {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.home .homeContent h2 {
+  font-size: 7rem;
+  font-weight: bolder;
+  color: white; /* Set text color */
+}
+
+.home .homeContent p {
+  color: white;
+}
+
+.home-btn {
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #D2B48C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #B5CC82;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  padding: 20px;
+  font-size: 24px; /* Increase font size for emphasis */
+  font-weight: bold; /* Make text bold for emphasis */
+}/*# sourceMappingURL=main.css.map */
