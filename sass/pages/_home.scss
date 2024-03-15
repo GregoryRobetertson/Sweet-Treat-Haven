@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -23,6 +29,7 @@
     width: 50%;
     float: left;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .home .homeContent h2 {
@@ -32,24 +39,7 @@
 }
 
 .home .homeContent p {
+  
     color: white;
-}
-
-.home-btn {
-    text-align: center;
-}
-
-.cta-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #D2B48C;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-btn:hover {
-   background-color: #B5CC82;;
 }
 
