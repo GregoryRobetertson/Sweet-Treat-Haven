@@ -12,6 +12,6 @@ I will be using a 7-1 file structure.
 ## Challeneges and Blockers on Day 2
 - None
 
-# Changes 
+## Changes on Day 2 
 - Remove button on home page.
 - Add reset padding and margin to home body
