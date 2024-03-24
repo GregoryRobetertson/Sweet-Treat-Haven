@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Treat Haven | Contact</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Treat Haven | Contact Us</title>
+    <link rel="stylesheet" href="sass/main.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo-container">
+        <h1>Sweet Treat Haven</h1>
+        <i class="logo fas fa-cookie-bite" style="color: #000000"></i>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <main>
+      <h2>Contact Us</h2>
+
+      <div class="container">
+        <form
+          action="mailto:your.email@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name.."
+            required
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your email.."
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something.."
+            style="height: 200px"
+            required
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+     <footer class="footer">
+  <p>&copy; 2024 Sweet Treat Haven. All rights reserved.</p>
+  <p>Designed with <i class="fas fa-heart"></i> by <a href="#">Gregory Robertson</a></p>
+</footer>
+  </body>
 </html>
