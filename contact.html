@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweet Treat Haven | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-<HASH>" crossorigin="anonymous" />
     <link rel="stylesheet" href="sass/main.css">
   </head>
   <body>
@@ -16,58 +19,27 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
     </header>
-    <main>
-      <h2>Contact Us</h2>
+   <main class="contact-content">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form action="mailto:geefromla@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required></input>
+        <label for="lname">Last Name</label>
+        <input type="text" id="Last Name" name="lastname" placeholder="Enter your first name" required></input>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required></input>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Write something.." required></textarea>
+        <input type="submit" value="Submit">
+      </form>
 
-      <div class="container">
-        <form
-          action="mailto:your.email@example.com"
-          method="post"
-          enctype="text/plain"
-        >
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your first name.."
-            required
-          />
-
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-            required
-          />
-
-          <label for="email">Email</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Your email.."
-            required
-          />
-
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Write something.."
-            style="height: 200px"
-            required
-          ></textarea>
-
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </main>
+    </div>
+   </main>
+      
      <footer class="footer">
   <p>&copy; 2024 Sweet Treat Haven. All rights reserved.</p>
   <p>Designed with <i class="fas fa-heart"></i> by <a href="#">Gregory Robertson</a></p>
