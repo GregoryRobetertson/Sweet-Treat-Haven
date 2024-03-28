@@ -16,5 +16,6 @@ I will be using a 7-1 file structure.
 - Remove button on home page.
 - Add reset padding and margin to home body
 
-## Day 3 Finished about page
-
+## Day 3
+- Created Contact page
+  - No blockers
