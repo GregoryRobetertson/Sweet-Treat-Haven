@@ -15,3 +15,6 @@ I will be using a 7-1 file structure.
 ## Changes on Day 2 
 - Remove button on home page.
 - Add reset padding and margin to home body
+
+## Day 3 Finished about page
+

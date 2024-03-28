@@ -1,8 +1,9 @@
 body {
-  font-family: "Salsa", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -46,7 +47,7 @@ h1 {
 .navbar a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   transition: color 0.3s ease;
   font-style: italic;
 }
@@ -125,7 +126,7 @@ body {
 }
 
 .home .homeContent h2 {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: bolder;
   color: white; /* Set text color */
 }
@@ -189,4 +190,62 @@ input[type=submit] {
   background-color: #B5CC82;
   cursor: pointer;
   padding: 5px;
+}
+
+.about-heading h2 {
+  font-weight: 800;
+  padding-top: 25px;
+  padding-left: 40%;
+  padding-bottom: 5%;
+}
+
+.about-content {
+  padding-bottom: 5%;
+  padding-top: 30px;
+}
+
+.about-content h3 {
+  font-weight: 600;
+  padding-left: 40%;
+}
+
+.about-img {
+  padding-top: 30px;
+  padding-left: 25.5%;
+}
+
+.text-container {
+  max-width: 75rem;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: 450;
+}
+
+.text-container .about-text {
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.about-ceo {
+  padding-top: 50px;
+}
+
+.about-ceo h4 {
+  padding-left: 40%;
+  font-weight: 600;
+}
+
+.about-ceo .ceo-img {
+  padding-top: 20px;
+  padding-left: 25.5%;
+  height: 500px;
+  width: 55rem;
+}
+
+.ceo-text {
+  max-width: 75rem;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 450;
 }/*# sourceMappingURL=main.css.map */
